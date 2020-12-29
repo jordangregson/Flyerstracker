@@ -1,0 +1,85 @@
+* {
+    background-color: #FF7F24;
+    margin: 0;
+}
+
+.title {
+    font-size: 5vw;
+}
+
+a, .change-size-btn {
+    text-decoration: none;
+    color: #FF7F24;
+}
+
+.mainbck {
+    background-color: #6E6E6E;
+    border-radius: 20px;
+}
+
+.main-container {
+    margin: 10px;
+
+    height: 98vh;
+    width: 98vw;
+}
+
+.top-bar {
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+
+.change-size-btn {
+    margin-left: 10vw;
+    
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    
+    text-decoration: none;
+    
+    font-size: 4vw;
+
+    color: #FF7F24;
+}
+
+.change-size-btn-bck {
+    background-color: #5A5A5A;
+    border-radius: 41px;
+    border: black 50px;
+}
+
+.navbar {
+    padding-top: 3vw;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.navbar-btn {
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+}
+
+.navbar-btn-bck {
+    background-color: #5A5A5A;
+    border-radius: 41px;
+}
+
+.main-area {
+    margin: 15px;
+    
+
+    height: 63vh;
+    width: 96vw;
+
+    border-radius: 10px;
+
+    background-color: #838383;
+}
+
