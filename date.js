@@ -57,6 +57,7 @@ else if(numMonth == 11) {
     month = "December";
 }
 
-var fullData = document.getElementById("display-date");
+var fullDate = document.getElementById("display-date");
 
-fullData.textContent = month + " " + date + ", " + year;
+fullDate.textContent = month + " " + date + ", " + year;
+

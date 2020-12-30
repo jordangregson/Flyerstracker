@@ -8,7 +8,7 @@ function mlbStandings() {
         })
         .then(data => {
             
-            console.log(data);
+            
     
             
     

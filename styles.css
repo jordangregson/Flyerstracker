@@ -18,11 +18,20 @@ a, .change-size-btn {
 }
 
 .main-container {
-    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
     padding: 10px;
 
     height: 98vh;
-    width: 94vw;
+    
+}
+
+#display-date {
+    font-size: 2vw;
+    background-color: #6E6E6E;;
 }
 
 .top-bar {
@@ -33,14 +42,14 @@ a, .change-size-btn {
 .change-size-btn {
     margin-left: 10vw;
     
-    padding-top: 1vw;
+    padding-top: .5vw;
     padding-bottom: 1vw;
     padding-left: 3vw;
     padding-right: 3vw;
     
     text-decoration: none;
     
-    font-size: 4vw;
+    font-size: 3vw;
 
     color: #FF7F24;
 }
@@ -54,7 +63,7 @@ a, .change-size-btn {
 .navbar {
     padding-top: 3vw;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .navbar-btn {
