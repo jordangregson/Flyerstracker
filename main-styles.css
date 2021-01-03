@@ -1,5 +1,5 @@
 * {
-    font-family: 'Audiowide', cursive;
+    
     font-family: 'Do Hyeon', sans-serif;
     margin: 0;
     
@@ -8,6 +8,10 @@
 header {
     background-color: #FF7F24;
     
+}
+
+a {
+    text-decoration: none;
 }
 
 .title {
@@ -24,9 +28,17 @@ header {
     padding-left: 15vw;
 }
 
-a, .change-size-btn {
-    text-decoration: none;
-    color: #FF7F24;
+.current-page {
+    
+
+    background-color:#B47E58;
+    border-radius: 41px;
+    border: black 50px;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 .mainbck {
