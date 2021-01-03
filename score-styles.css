@@ -12,8 +12,8 @@
     font-size: 4vw;
 
     margin-top: 10vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 #opponent {
@@ -22,8 +22,8 @@
     font-size: 4vw;
 
     margin-top: 10vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 #teams-playing-txt {
@@ -44,18 +44,16 @@
     font-size: 4vw;
 
     margin-top: 10vw;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
-
-
 
 #opponents-score {
     font-size: 4vw;
 
     margin-top: 10vw;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .score {
