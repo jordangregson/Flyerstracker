@@ -1,7 +1,64 @@
-#flyers {
-    background-color: #838383;
+.main-area {
+    text-align: center;
 }
 
-#oponent {
-    background-color: #838383;
+.main-area-bck {
+    background-color: #4D4D4D;
+}
+
+#flyers {
+    background-color: #4D4D4D;
+
+    font-size: 4vw;
+
+    margin-top: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#opponent {
+    background-color: #4D4D4D;
+
+    font-size: 4vw;
+
+    margin-top: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#teams-playing-txt {
+    color: white;
+
+    font-size: 3vw;
+
+    padding-top: 1vw;
+}
+
+.teams-playing {
+    color: white;
+
+    padding-top: 2vw;
+}
+
+#flyers-score {
+    font-size: 4vw;
+
+    margin-top: 10vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+
+
+#opponents-score {
+    font-size: 4vw;
+
+    margin-top: 10vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.score {
+    margin-right: 2vw;
+    margin-top: 5vw;
 }

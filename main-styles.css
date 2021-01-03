@@ -1,10 +1,24 @@
 * {
-    background-color: #FF7F24;
+    
     margin: 0;
+}
+
+header {
+    background-color: #FF7F24;
+    
 }
 
 .title {
     font-size: 5vw;
+    color: white;
+}
+
+#display-date {
+    text-align: center;
+    font-size: 3vw;
+    background-color: #FF7F24;
+    color: white;
+    padding-left: 15vw;
 }
 
 a, .change-size-btn {
@@ -13,14 +27,14 @@ a, .change-size-btn {
 }
 
 .mainbck {
-    background-color: #6E6E6E;
+    background-color: #FF7F24;
     border-radius: 20px;
 }
 
 .main-container {
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
 
     padding: 10px;
@@ -29,41 +43,29 @@ a, .change-size-btn {
     
 }
 
-#display-date {
-    font-size: 3vw;
-    background-color: #6E6E6E;;
-}
-
 .top-bar {
     padding-left: 1vw;
     padding-top: 1vw;
 }
 
-.change-size-btn {
-    margin-left: 10vw;
-    
-    padding-top: .5vw;
-    padding-bottom: 1vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    
-    text-decoration: none;
-    
-    font-size: 3vw;
-
-    color: #FF7F24;
-}
-
-.change-size-btn-bck {
-    background-color: #5A5A5A;
+.btn-bck {
+    background-color: #FF9A52;
     border-radius: 41px;
     border: black 50px;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 .navbar {
-    padding-top: 3vw;
+    padding-top: 1.5vw;
     text-align: center;
     font-size: 3vw;
+
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
 
 .navbar-btn {
@@ -72,24 +74,27 @@ a, .change-size-btn {
 
     padding-left: 2vw;
     padding-right: 2vw;
-    padding-top: .5vw;
-    padding-bottom: .5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
-.navbar-btn-bck {
-    background-color: #5A5A5A;
-    border-radius: 41px;
+body {
+    
+    background-color: #4D4D4D;
 }
 
 .main-area {
-    margin-top: 20px;
     
+    margin-top: 3vw;
 
-    height: 75%;
-    width: 100%;
+    border-radius: 20px;
 
-    border-radius: 10px;
+    
+}
 
-    background-color: #838383;
+.teams-playing {
+
+    margin-top: 20px;
+    background-color: #4D4D4D;
 }
 
