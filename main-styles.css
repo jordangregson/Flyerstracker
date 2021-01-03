@@ -1,6 +1,8 @@
 * {
-    
+    font-family: 'Audiowide', cursive;
+    font-family: 'Do Hyeon', sans-serif;
     margin: 0;
+    
 }
 
 header {
@@ -11,11 +13,12 @@ header {
 .title {
     font-size: 5vw;
     color: white;
+    font-family: 'Audiowide', cursive;
 }
 
 #display-date {
     text-align: center;
-    font-size: 3vw;
+    font-size: 2vw;
     background-color: #FF7F24;
     color: white;
     padding-left: 15vw;

@@ -63,40 +63,48 @@
 
 @media only screen and (max-width: 600px) {
 
+    #teams-playing-txt {
+        color: white;
+    
+        font-size: 6vw;
+    
+        padding-top: 1vw;
+    }
+
     #flyers {
         background-color: #4D4D4D;
     
-        font-size: 14pt;
+        font-size: 16pt;
     
         margin-top: 10vw;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 1vw;
+        margin-right: 10vw;
     }
     
     #opponent {
         background-color: #4D4D4D;
     
-        font-size: 14pt;
+        font-size: 16pt;
     
         margin-top: 10vw;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 10vw;
+        margin-right: 1vw;
     }
 
     #flyers-score {
-        font-size: 14pt;
+        font-size: 25pt;
     
         margin-top: 10vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 1vw;
+        margin-right: 18vw;
     }
     
     #opponents-score {
-        font-size: 14pt;
+        font-size: 25pt;
     
         margin-top: 10vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 18vw;
+        margin-right: 1vw;
     }
     
     .score {
