@@ -25,6 +25,9 @@ a {
     font-size: 5vw;
     color: white;
     font-family: 'Audiowide', cursive;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #display-date {
@@ -33,6 +36,9 @@ a {
     background-color: #FF7F24;
     color: white;
     padding-left: 15vw;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .current-page {
