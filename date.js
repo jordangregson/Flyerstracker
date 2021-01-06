@@ -91,4 +91,3 @@ var fullDate = document.getElementById("display-date");
 
 fullDate.textContent = dayOfWeek + ", " + month + " " + date + ", " + year;
 
-console.log(dayOfWeek);

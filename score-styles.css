@@ -6,6 +6,15 @@
     background-color: #4D4D4D;
 }
 
+.gip {
+    color: white;
+    font-size: 14pt;
+}
+
+#gip-answer {
+    padding-bottom: 20px;
+}
+
 #flyers {
     background-color: #4D4D4D;
 
