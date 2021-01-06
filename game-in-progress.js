@@ -69,7 +69,7 @@ console.log(apiDate);
 
 
 
-function mlbStandings(apiMonth) {
+function gameInProgress(apiMonth) {
 
     const api_url = `https://api.sportsdata.io/v3/nba/stats/json/BoxScores/${apiDate}?key=c8b0f33081df4e169dee41736301a0eb`;
     
@@ -86,5 +86,5 @@ function mlbStandings(apiMonth) {
         })
     }
     
-    mlbStandings();
+    gameInProgress();
     

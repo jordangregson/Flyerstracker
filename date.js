@@ -1,10 +1,16 @@
+function dateAndTime () {
+
 var today = new Date();
 
 var date = today.getDate();
 var numDayOfWeek = today.getDay();
 var numMonth = today.getMonth();
 var year = today.getFullYear();
-
+/*
+var minute = today.getMinutes();
+var seconds = today.getSeconds();
+var hour = today.getHours();
+*/
 var month;
 var dayOfWeek;
 
@@ -90,4 +96,11 @@ else if(numDayOfWeek == 6) {
 var fullDate = document.getElementById("display-date");
 
 fullDate.textContent = dayOfWeek + ", " + month + " " + date + ", " + year;
+/*
+console.log(hour + ":" + minute + ":" + seconds);
+*/
+}
 
+dateAndTime();
+
+setInterval(dateAndTime, 1);

@@ -1,5 +1,5 @@
-/*
-function mlbStandings() {
+
+function currentScore() {
 
     const api_url = ``;
     
@@ -16,5 +16,7 @@ function mlbStandings() {
         })
     }
     
-    mlbStandings();
-    */
+    currentScore();
+
+    setInterval(mlbStandings, 10)
+    
