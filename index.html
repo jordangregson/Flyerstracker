@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    <link rel="stylesheet" href="main-styles.css">
-    <link rel="stylesheet" href="score-styles.css">
+    <link rel="stylesheet" href="styles/main-styles.css">
+    <link rel="stylesheet" href="styles/score-styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Do+Hyeon&display=swap" rel="stylesheet">
@@ -39,7 +37,7 @@
 
         
 
-        <span id="display-date">January 1st, 2020</span>
+        <span id="display-date">Date goes here</span>
 
 
         <div class="navbar mainbck">
@@ -70,33 +68,39 @@
         <div class="main-area">
 
             <p class="gip">
-                Is there a game is progress?
+                Is there a game is today?
             </p>
             <p id="gip-answer" class="gip">
                 No
             </p>
 
             <p id="teams-playing-txt">
-                Flyers vs Opponent
+                
             </p>
 
             <div class="teams-playing">
-                <span id="flyers">
-                    Flyers
+                <span id="away">
+                    
                 </span>
+   
 
-                
-                
-
-                <span id="opponent">
-
-                    Opponent
+                <span id="home">
                     
                 </span>
 
                 <div class="score">
-                    <c id="flyers-score">0</c>
-                    <c id="opponents-score">0</c>
+                    <c id="away-score"></c>
+                    <c id="home-score"></c>
+                </div>
+
+                <div id="game-start-date">
+                    
+                </div>
+                <div id="at">
+                    
+                </div>
+                <div id="game-start-time">
+                    
                 </div>
                 
             </div>
@@ -105,8 +109,13 @@
     </div>
 </body>
 
-<script src="date.js"></script>
-<script src="game-in-progress.js"></script>
-<script src="current-score.js"></script>
+<script src="js/date.js"></script>
+<script src="js/game-in-progress.js"></script>
+<script src="js/current-score.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://unpkg.com/dayjs"></script>
+<script src="js/time-of-game.js"></script>
 
 </html>

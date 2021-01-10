@@ -131,7 +131,11 @@ body {
     .title {
         position: absolute;
         right: 0;
-        padding-right: 80px;
+        padding-right: 40px;
+        font-size: 18pt;
+
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: white;
     }
     
     header {
@@ -153,7 +157,7 @@ body {
 	.dropdown {
         display: none;
         margin-top: 17px;
-		background-color: #FF7F24;
+		background-color: #FF9A52;
 		width: 100%;
 	}
 
@@ -197,7 +201,7 @@ body {
 		background: white;
 		height: 4px;
 		width: 2em;
-		position: relative;
+        position: relative;
 	}
 
 	.dropdown_toggle_label span::before,
