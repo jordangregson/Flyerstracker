@@ -103,4 +103,4 @@ console.log(hour + ":" + minute + ":" + seconds);
 
 dateAndTime();
 
-setInterval(dateAndTime, 1);
+//setInterval(dateAndTime, 3000);
