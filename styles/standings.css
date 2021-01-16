@@ -1,0 +1,62 @@
+
+
+#standings-grid-cont {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4);
+}
+
+.dividing-line {
+    height: 10px;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#west, #east, #central, #north {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.league-grid-item {
+    margin-top: 25px;
+    color: white;
+}
+
+.division-grid-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#division-grid-cont {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#west-cont, #central-cont, #east-cont, #north-cont {
+    width: 30vw;
+    
+}
+
+#standing-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    line-height: 35px;
+}
+
+body {
+    margin-bottom: 50px;
+}
