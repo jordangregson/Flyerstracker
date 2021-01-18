@@ -76,7 +76,7 @@ function gameInProgress(apiDate) {
 
             for(var i = 0; i < data.length; i++) {
                 if(data[i].HomeTeamID === 13 | data[i].AwayTeamID === 13) {
-                    console.log(data[i]);
+                    
                     
                     var teamsPlaying;
                     teamsPlaying = document.getElementById("teams-playing-txt");

@@ -1,12 +1,10 @@
-console.log(dayjs());
-
 function gameInProgress(apiDate) {
 
     //turning the date into sportsdata.io format
 
     var today = new Date();
 
-    var numDate = today.getDate();
+    var date = today.getDate();
     
     var numMonth = today.getMonth();
     var year = today.getFullYear();
@@ -14,41 +12,43 @@ function gameInProgress(apiDate) {
     var month;
     var date;
 
+    
+
 
     //ADJUSTING THE STYLE OF THE DAY
-    if (numDate == "1") {
+    if (date == "1") {
         date = "01";
     }
 
-    if (numDate == "2") {
+    if (date == "2") {
         date = "02";
     }
 
-    if (numDate == "3") {
+    if (date == "3") {
         date = "03";
     }
 
-    if (numDate == "4") {
+    if (date == "4") {
         date = "04";
     }
 
-    if (numDate == "5") {
+    if (date == "5") {
         date = "05";
     }
 
-    if (numDate == "6") {
+    if (date == "6") {
         date = "06";
     }
 
-    if (numDate == "7") {
+    if (date == "7") {
         date = "07";
     }
 
-    if (numDate == "8") {
+    if (date == "8") {
         date = "08";
     }
 
-    if (numDate == "9") {
+    if (date == "9") {
         date = "09";
     }
 
@@ -130,7 +130,6 @@ function gameInProgress(apiDate) {
                         gameIsHappening = document.getElementById("gip-answer");
                         gameIsHappening.textContent = "Yes";
                     }
-                    console.log(data[i].DateTime)
                    
                     
                     var displayedDate = dayjs(data[i].DateTime).format('dddd, MMM D, YYYY');
